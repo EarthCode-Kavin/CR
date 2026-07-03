@@ -1,0 +1,22 @@
+{
+    "maxValues": {
+        "Citations": 50,
+        "h-index": 5,
+        "i10-index": 5,
+        "Co-authors": 50,
+        "Journal articles": 15,
+        "Conference articles": 10,
+        "Book chapters": 3,
+        "Preprints": 3
+    },
+    "rawData": {
+        "Citations": 38,
+        "h-index": 3,
+        "i10-index": 2,
+        "Co-authors": 40,
+        "Journal articles": 12,
+        "Conference articles": 6,
+        "Book chapters": 1,
+        "Preprints": 0
+    }
+}
