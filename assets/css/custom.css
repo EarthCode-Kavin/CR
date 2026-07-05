@@ -161,11 +161,21 @@
 .w3-hover-opacity:hover { opacity: 0.7; }
 
 /* ---------- home hero background ---------- */
+/* Full-bleed hero: remove the 50px frame the template puts around everything */
+#overlay {
+  padding: 0;
+}
 #header {
   background: linear-gradient(rgba(4, 4, 4, 0.55), rgba(4, 4, 4, 0.8)), url("../img/hero-bg.jpg") center center / cover no-repeat;
 }
 #header.header-top {
   background: rgba(0, 0, 0, 0.9);
+}
+
+/* Particles drawn in front of the hero image (clicks pass through) */
+#particles-js {
+  z-index: 998;
+  pointer-events: none;
 }
 
 /* ---------- profile photo ---------- */
@@ -180,9 +190,6 @@
 
 /* ---------- mobile optimization ---------- */
 @media (max-width: 768px) {
-  #overlay {
-    padding: 20px;
-  }
   section .container {
     padding: 15px;
   }
@@ -210,9 +217,6 @@
 }
 
 @media (max-width: 480px) {
-  #overlay {
-    padding: 12px;
-  }
   #header h1 {
     font-size: 24px;
   }
